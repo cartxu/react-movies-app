@@ -56,6 +56,7 @@
 
 }
 
+
 .movies-search h2 {
   color: var(--color-primary-dark);
   font-size: 1.4rem;
@@ -94,14 +95,15 @@
 
 .movies {
   padding: 0rem;
-  margin: 0rem;
+  margin: 1rem 0rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
-  overflow: hidden;
-  width: 85vw;
+  width: 90vw;
   scroll-behavior: smooth;
+  white-space: nowrap;
+  overflow:scroll;
 }
 
 
@@ -161,8 +163,7 @@
 .movie {
   width: 16rem;
   height: auto;
-  margin-top: 1.5rem;
-  margin-right: 3rem;
+  margin: 1.5rem 1rem;
   border-radius: 2rem;
   transition: all 0.5s;
   cursor: pointer;
@@ -171,11 +172,25 @@
 
 .movie span {
   position: relative;
-  top: 5rem;
-  left: 1.5rem;
+  top: 0rem;
+  right: -11.5rem;
   background-color: var(--color-primary);
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   color: var(--color-secondary-dark);
   font-weight: 800;
+  z-index: 100;
+}
+
+
+@media (max-width:500px){
+  .movies-search h2 {
+    display:none;
+  }
+  
+  .search-input input {
+    width: 15rem;
+
+  }
+
 }

@@ -5,10 +5,7 @@ import { FiLinkedin, FiGithub } from 'react-icons/fi'
 export const Footer = () => {
     return (
         <div className='footer-container'>
-            <p className='footer-diclaimer'>
-                This site was built with <FaReact /> and <FaHeart /> by <strong>Carmen Navarro</strong> for <strong>SEAT:Code.</strong>
-            </p>
-            <div className='btn-container'>
+             <div className='btn-container'>
                 <a
                     target="_blank" rel="noopener noreferrer"
                     href="https://github.com/cartxu">
@@ -20,6 +17,10 @@ export const Footer = () => {
                     <button className='btn'>Linkedin <FiLinkedin /></button>
                 </a>
             </div>
+            <p className='footer-diclaimer'>
+                This site was built with <FaReact /> and <FaHeart /> by <strong>Carmen Navarro</strong> for <strong>SEAT:Code.</strong>
+            </p>
+           
         </div>
     )
 }
