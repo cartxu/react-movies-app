@@ -1,0 +1,181 @@
+.movies-container {
+  display: flex;
+  width: 100vw;
+}
+
+
+.menu {
+  width: 10vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+}
+
+.menu .logo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.menu svg {
+  margin: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--color-grey);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu svg:hover {
+  color: var(--color-primary);
+}
+
+
+.menu-right {
+  border-left: 0.1rem solid var(--color-primary-light);
+  width: 25%;
+  min-height: 100vh;
+}
+
+.menu-right-title {
+  margin: 1rem 2rem;
+  color: var(--color-secondary-dark);
+}
+
+
+.movies-search {
+  height: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+
+}
+
+.movies-search h2 {
+  color: var(--color-primary-dark);
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: var(--color-primary);
+  padding: 1.1rem 4rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  letter-spacing: 0.1rem;
+  margin-right: -2rem;
+}
+
+.search-input input {
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  width: 5rem;
+  color: var(--color-primary-dark);
+  background-color: var(--color-secondary);
+  border: 0.1rem solid var(--color-primary);
+  border-radius: 2rem;
+  outline: none;
+  font-family: var(--font-default);
+  transition: all 0.4s;
+}
+
+.search-input input:focus {
+  caret-color: var(--color-primary);
+  width: 20rem;
+  background-color: var(--color-light-grey);
+}
+
+.search-input svg {
+  margin-left: -3rem;
+  color: var(--color-primary);
+}
+
+.movies {
+  padding: 0rem;
+  margin: 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 85vw;
+  scroll-behavior: smooth;
+}
+
+
+
+.lds-ring {
+  display: inline-block;
+  position: absolute;
+  top: 3rem;
+  left: 10rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.2rem;
+  border: 0.4rem solid var(--color-secondary);
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: var(--color-secondary) transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.scroll-btn svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--color-secondary);
+
+}
+
+.movie {
+  width: 16rem;
+  height: auto;
+  margin-top: 1.5rem;
+  margin-right: 3rem;
+  border-radius: 2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.movie span {
+  position: relative;
+  top: 5rem;
+  left: 1.5rem;
+  background-color: var(--color-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: var(--color-secondary-dark);
+  font-weight: 800;
+}

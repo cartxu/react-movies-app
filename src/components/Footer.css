@@ -1,0 +1,55 @@
+.footer-container {
+    height: 10rem;
+    border-top: 0.5rem solid transparent;
+    border-image: linear-gradient(90deg, var(--color-secondary), var(--color-primary)) 30;
+    background-color: var(--color-secondary-dark);
+    color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-diclaimer {
+    padding: 1.5rem;
+    width: 50%;
+    font-weight: 500;
+}
+
+.footer-diclaimer svg {
+    color: var(--color-secondary);
+}
+
+.btn-container {
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-container a {
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    border: 0.2rem solid transparent;
+    border-image: linear-gradient(90deg, var(--color-secondary), var(--color-primary)) 1;
+    background-color: transparent;
+    color: var(--color-light);
+    cursor: pointer;
+}
+
+.btn svg {
+    margin: 0.4rem;
+}
+
+.btn:hover {
+    color: var(--color-secondary);
+    border-image: linear-gradient(40deg, var(--color-secondary), var(--color-primary)) 1;
+}
