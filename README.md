@@ -42,9 +42,10 @@ On this site, users will be able to:
 
 6. You can play with it from your smartphone too and still looking nice 😉:
 
-<img src="./public/screen6.png">
+<img width="400px" src="./public/screen6.png">
 
-## Try it!
+
+## Try it
 
 In the project directory, you can run:
 
@@ -54,6 +55,6 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-## Or go LIVE!
+## Or go LIVE! 🚀
 
 [Fav:Movies](https://fav-movies-nine.vercel.app/)
