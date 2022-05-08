@@ -9,8 +9,8 @@ I created the web with React and Typescript and tried to fullfill the challenge 
 On this site, users will be able to:
 
 - Search for movies
-- Get movies by "popular", "top rated" or "playing now"
-- When they click on a movie they will get extra information as the title, the overview and they will get the chance to add the movie to its favorites by clicking con the heart icon.
+- Get movies by "popular", "top rated" or "playing now" 
+- When they click on a movie they will get extra information as the title, the overview and they will get the chance to add the movie to its favorites by clicking on the heart icon.
 - On the bottom side of the web, they will see a list with all the movies they have added to favorites.
 - User will be able to order them by title or by votes. 
 - If they click on one of their favorites movies they can see the detailed information of the movie on the middle bar and "un-favorite" them as well. 
@@ -36,7 +36,7 @@ On this site, users will be able to:
 
 <img src="./public/screen4.png">
 
-5. By default, they are sorted by title but you can display them by average votes too, or back yo title sorting:
+5. By default, they are sorted by title but you can display them by vote average too, or back to title sorting:
 
 <img src="./public/screen5.png">
 
