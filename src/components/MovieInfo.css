@@ -199,7 +199,7 @@
     .fav-list {
       flex-wrap: nowrap;
       overflow: scroll;
-      align-items: flex-start;
+      justify-content: flex-start;
 
     }
 }

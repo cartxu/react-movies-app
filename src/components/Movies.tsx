@@ -11,7 +11,7 @@ import {
     BsFillLightningChargeFill,
     BsFillArrowRightCircleFill
 } from "react-icons/bs";
-import './Movie.css'
+import './Movies.css'
 import logo from '../assets/images/logo.png';
 
 
@@ -127,6 +127,7 @@ export const Movies = () => {
                         <h2>{title}</h2>
                         <div className="search-input">
                             <input
+                                placeholder='Search movies...'
                                 type="text"
                                 onChange={(event) => [
                                     setMovies([]),
@@ -162,7 +163,12 @@ export const Movies = () => {
                                 ))
                                 :
 
-                                <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
+                                <div className="lds-ring">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
 
                         }
 
