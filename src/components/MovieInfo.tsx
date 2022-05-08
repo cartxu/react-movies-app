@@ -127,7 +127,9 @@ export const MovieInfo = (props: any) => {
                             </div>
                         ))
                         :
-                        <span className="fav-empty">Your favorites list is empty...</span>
+                        <div className="fav-empty">
+                           <span>Your favorites list is empty...</span> 
+                           </div>
                 }
             </div>
 

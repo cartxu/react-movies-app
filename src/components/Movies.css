@@ -10,8 +10,8 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   margin: 2rem;
 }
 
@@ -176,9 +176,13 @@
   }
   
   .search-input input {
-    width: 20rem;
+    width: 60vw;
     background-color: var(--color-light-grey);
 
+  }
+
+  .search-input input:focus {
+    width: 60vw; 
   }
 
 }

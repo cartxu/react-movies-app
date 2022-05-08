@@ -1,6 +1,7 @@
 
 
 .footer-container {
+    width: 100vw;
     height: 10rem;
     border-top: 0.5rem solid transparent;
 	border-image: linear-gradient(90deg, var(--color-secondary), var(--color-primary)) 30;
@@ -15,6 +16,7 @@
     padding: 1.5rem;
     width: 45%;
     font-weight: 500;
+    text-align: right;
 }
 
 .footer-diclaimer svg {

@@ -136,6 +136,8 @@
   }
   
   .fav-empty {
+    width: 100%;
+    text-align: center;
     color: var(--color-primary);
     font-weight: 400;
     font-size: 1.6rem;
@@ -143,7 +145,7 @@
   
   .cont{
     margin-top: 2rem;
-    width:85vw;
+    width:80%;
     height:5rem;
     background:#FBFBFB;
     border-radius: 5rem;
