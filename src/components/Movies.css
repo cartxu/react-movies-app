@@ -90,7 +90,7 @@
   flex-wrap: nowrap;
   width: 80vw;
   scroll-behavior: smooth;
-  overflow:scroll;
+  overflow:hidden;
 }
 
 
@@ -171,6 +171,10 @@
 
 
 @media (max-width:500px){
+  .movies {
+    overflow:scroll;
+  }
+
   .movies-search h2 {
     display:none;
   }
