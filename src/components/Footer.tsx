@@ -18,7 +18,7 @@ export const Footer = () => {
                 </a>
             </div>
             <p className='footer-diclaimer'>
-                This site was built with <FaReact /> and <FaHeart /> by <strong>Carmen Navarro</strong> for <strong>SEAT:Code.</strong>
+                This site was built with <FaReact /> and <FaHeart /> by <strong>Carmen Navarro</strong>.
             </p>
            
         </div>
