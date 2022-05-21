@@ -1,4 +1,4 @@
-# Frontend Challenge for SEAT:CODE
+# Fav:Movies
 
 Hello world, welcome to fav:movies app! 🎬
 
