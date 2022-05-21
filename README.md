@@ -1,10 +1,6 @@
 # Frontend Challenge for SEAT:CODE
 
-Hello SEAT:CODE! 🚘
-
-To solve this challenge I decided to use the [themoviedb](https://www.themoviedb.org/documentation/api) API which provides us with a great amount of movie data to play with. 
-
-I created the web with React and Typescript and tried to fullfill the challenge requirements but keeping it simple. 
+Hello world, welcome to fav:movies app! 🎬
 
 On this site, users will be able to:
 
@@ -15,7 +11,6 @@ On this site, users will be able to:
 - User will be able to order them by title or by votes. 
 - If they click on one of their favorites movies they can see the detailed information of the movie on the middle bar and "un-favorite" them as well. 
 - The design is responsive and tested on different devices. 
-
 
 
 # UX/UI
